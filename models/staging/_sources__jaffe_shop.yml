@@ -9,6 +9,9 @@ sources:
           - name: id
             data_type: string
             description: ""
+            data_tests:
+              - not_null
+              - unique
           - name: name
             data_type: string
             description: ""
@@ -19,6 +22,9 @@ sources:
           - name: id
             data_type: string
             description: ""
+            data_tests:
+              - not_null
+              - unique
           - name: order_id
             data_type: string
             description: ""
@@ -32,6 +38,9 @@ sources:
           - name: id
             data_type: string
             description: ""
+            data_tests:
+              - not_null
+              - unique
           - name: customer
             data_type: string
             description: ""
@@ -57,6 +66,9 @@ sources:
           - name: sku
             data_type: string
             description: ""
+            data_tests:
+              - not_null
+              - unique
           - name: name
             data_type: string
             description: ""
@@ -76,6 +88,9 @@ sources:
           - name: id
             data_type: string
             description: ""
+            data_tests:
+              - not_null
+              - unique
           - name: name
             data_type: string
             description: ""
@@ -92,6 +107,9 @@ sources:
           - name: id
             data_type: string
             description: ""
+            # data_tests:
+            #   - not_null
+            #   - unique
           - name: name
             data_type: string
             description: ""
